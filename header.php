@@ -176,4 +176,7 @@
       if((_href).includes($(this).attr('href')) == true){
         $(this).closest('li').addClass('active')
       }else{
-        $(this).cl
+        $(this).closest('li').removeClass('active')
+      }
+    })
+</script>
